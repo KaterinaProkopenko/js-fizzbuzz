@@ -1,4 +1,4 @@
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
     /* seleziono ul */
    const ul = document.querySelector('ul');
    /* creo li */
@@ -14,6 +14,8 @@ for (let i = 0; i < 100; i++) {
        li.innerHTML = ('Buzz');
     } else if (i % 3 == 0) {
        li.innerHTML = ('Fizz');
+    } else {
+       console.log(i);
     }
 }
 
